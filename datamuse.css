@@ -9,3 +9,19 @@
   font-family: Arial;
   text-align: center;
 }
+
+#buttonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  border: solid 2px black;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px gray;
+  margin: 5px;
+  padding: 2px;
+}
